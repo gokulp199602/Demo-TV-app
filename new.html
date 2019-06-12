@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="socket.io.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    <title>Demo App</title>
+</head>
+<body>
+    <div id="elementContainer">
+    	<nav class="navbar navbar-dark mycolor">
+                Web Mobi Navbar
+        </nav>
+        
+        <div id="contentContainer">
+                <div class="container">
+                    <div class="jumbotron">
+                        <div class="container">
+                            <h1>Please choose your agenda</h1>
+                            <span class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle mypos" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Agenda Here
+                                    </button>
+                                    <span class="dropdown-menu" id="mydrop" aria-labelledby="dropdownMenuButton">
+											<a class='dropdown-item' href='#' onclick='openOptions()'>Global</a>
+                                        <!--The dropdown for Agenda-->
+									</span>
+							</span>
+							<span class="dropdown">
+									<button class="btn btn-secondary dropdown-toggle mypos1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Global
+									</button>
+									<span class="dropdown-menu" id="mydrop2" aria-labelledby="dropdownMenuButton">
+											<a class='dropdown-item' href='#'>Event Feedback</a>
+											<a class='dropdown-item' href='#'>Session Feedback</a>
+									</span>
+							</span>
+							<div id="topicDisplay">
+									Topic:<span id="myTopic"></span>
+							</div>
+                        </div>
+					</div>
+					
+					<div>
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<!--looping through the corousel-->  
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="sr-only">Next</span>
+						</a>
+					  </div>
+					</div>
+                </div>
+            </div>
+                </div>
+            </div>
+        
+              
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+         crossorigin="anonymous"></script> 
+         <script type="text/javascript" src="script.js"></script>
+ </div>
+</body>
+</html>

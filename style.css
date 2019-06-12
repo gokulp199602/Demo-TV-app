@@ -1,0 +1,58 @@
+.mycolor
+{
+    background-color: #ff9900;
+}
+
+#carouselExampleIndicators
+{
+    backgrounnd-color:#fff;
+}
+
+#topicDisplay
+{
+    margin-top: 34px;
+}
+
+#topicDisplay
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tvmode
+{
+    display: none;
+}
+
+#elementpage
+{
+    background-color: #fff;
+}
+
+.carousel-control-prev,.carousel-control-next
+{
+    width: 36px;
+}
+
+
+button
+{
+    background-color: #f90;
+    color:#fff;
+}
+
+button:hover
+{
+    background-color: #cbcbcb;
+    color:#000;
+}
+
+
+#carouselExampleIndicators {
+    background-color: #fff;
+}
+
+.mypos1
+{
+    display: none;
+}
